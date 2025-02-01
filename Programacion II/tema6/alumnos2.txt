@@ -1,0 +1,4 @@
+Juan Perez/7.5/8.0/7.2/INSO1A
+Maria Gomez/8.2/9.0/8.5/INSO1B
+Francisco/6.8/7.0/6.5/INSO1D
+Nerea/6/8.3/6.5/INSO1C

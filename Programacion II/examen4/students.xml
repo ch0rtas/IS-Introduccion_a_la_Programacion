@@ -1,0 +1,30 @@
+﻿<student>
+	<name>Jose Manuel </name> 
+	<age>18</age>
+	<group>INSO1A</group>
+</student>
+<student>
+	<name>Alberto</name> 
+	<age>20</age>
+	<group>INSG1</group>
+</student>
+<student>
+	<name>Ines</name> 
+	<age>22</age>
+	<group>INSO1B</group>
+</student>
+<student>
+	<name>Daniela</name> 
+	<age>19</age>
+	<group>INSO1B</group>
+</student>
+<student>
+	<name>Gabriel</name> 
+	<age>18</age>
+	<group>INSO1C</group>
+</student>
+<student>
+	<name>Juan Antonio</name> 
+	<age>19</age>
+	<group>INSO1C</group>
+</student>

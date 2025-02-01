@@ -1,0 +1,52 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+int main() {
+    // Semilla para la generación de números aleatorios
+    srand(time(NULL));
+
+    // Declaración e inicialización del array
+    int array[10];
+
+    // Rellenar el array con números aleatorios entre 0 y 30
+    for (int i = 0; i < 10; i++) {
+        array[i] = rand() % 31; // Módulo 31 para obtener números entre 0 y 30
+    }
+
+    // Mostrar el array por pantalla
+    printf("Array generado: ");
+    for (int i = 0; i < 10; i++) {
+        printf("%d ", array[i]);
+    }
+    printf("\n");
+
+    // Pedir al usuario un número entre 0 y 30
+    int numeroUsuario;
+    printf("Ingresa un numero entre 0 y 30: ");
+
+    // Verificar que se ingrese un entero válido
+    while (scanf("%d", &numeroUsuario) != 1 || numeroUsuario < 0 || numeroUsuario > 30) {
+        printf("Entrada no valida. Ingresa un numero entre 0 y 30: ");
+        // Limpiar el búfer de entrada
+        while (getchar() != '\n');
+    }
+
+    // Buscar el número en el array
+    int encontrado = 0; // Variable para indicar si el número fue encontrado
+    for (int i = 0; i < 10; i++) {
+        if (array[i] == numeroUsuario) {
+            encontrado = 1;
+            break; // Salir del bucle si el número es encontrado
+        }
+    }
+
+    // Mostrar el resultado de la búsqueda
+    if (encontrado) {
+        printf("Numero encontrado\n");
+    } else {
+        printf("Numero no encontrado\n");
+    }
+
+    return 0;
+}

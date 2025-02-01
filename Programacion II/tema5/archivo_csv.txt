@@ -1,0 +1,3 @@
+Manuel;Martinez;21
+Jaime;Risco;21
+Celia;Garcia;20
