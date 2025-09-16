@@ -17,7 +17,7 @@ Consulta los README dentro de las carpetas correspondientes para más detalles s
 Clona este repositorio en tu equipo:
 
 ```bash
-git clone https://github.com/ch0rtas/IS-Introduccion_a_la_Programacion.git
+git clone https://github.com/ch0rtas/SWE-Introduccion_a_la_Programacion.git
 ```
 Explora las carpetas para acceder al material y sigue las instrucciones específicas dentro de cada una para su uso.
 
